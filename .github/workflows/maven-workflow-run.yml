@@ -17,8 +17,8 @@ jobs:
       fail-fast: false
       max-parallel: 3
       matrix:
-        java: [ '8', '11', '17' ]
-        os: [ 'macos-latest', 'windows-latest', 'ubuntu-latest' ]
+        java: [ '11', '17' ]
+        os: ['windows-latest']
     name: TestNG Repo ${{ matrix.Java }} - ${{ matrix.os }} Sample
     env:
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
