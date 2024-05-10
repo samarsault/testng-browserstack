@@ -38,6 +38,7 @@
             <version>latest</version>
             <systemPath>/home/runner/work/testng-browserstack/testng-browserstack/browserstack-java-sdk-1.13.23.jar</systemPath>
             <!--<systemPath>D:\a\testng-browserstack\testng-browserstack\browserstack-java-sdk-1.13.23.jar</systemPath>-->
+            <!--<systemPath>/Users/samarjeet/Desktop/BS/browserstack-javaagent/target/browserstack-java-sdk-1.13.23.jar</systemPath>-->
             <scope>system</scope>
         </dependency>
         <dependency>
