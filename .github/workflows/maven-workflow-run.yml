@@ -56,7 +56,8 @@ jobs:
         run: |
           mvn compile
           mvn test
-      - name: Exit Code
+      - if: always()
+        name: Exit Code
         run: |
           echo $?
       - name: Run mvn profile sample-local-test
