@@ -15,7 +15,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <testng.version>7.4.0</testng.version>
-        <surefire.version>2.19.1</surefire.version>
+        <surefire.version>2.22.0</surefire.version>
         <selenium.version>4.1.4</selenium.version>
         <json-simple.version>1.1.1</json-simple.version>
         <config.file>config/sample-test.testng.xml</config.file>
@@ -35,11 +35,11 @@
         <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>browserstack-java-sdk</artifactId>
-            <version>latest</version>
-            <systemPath>/home/runner/work/testng-browserstack/testng-browserstack/browserstack-java-sdk-1.13.24.jar</systemPath>
+            <version>1.19.3</version>
+<!--            <systemPath>/home/runner/work/testng-browserstack/testng-browserstack/browserstack-java-sdk-1.13.24.jar</systemPath>-->
             <!--<systemPath>D:\a\testng-browserstack\testng-browserstack\browserstack-java-sdk-1.13.23.jar</systemPath>-->
-            <!--<systemPath>/Users/samarjeet/Desktop/BS/browserstack-javaagent/target/browserstack-java-sdk-1.13.23.jar</systemPath>-->
-            <scope>system</scope>
+            <!--<systemPath>/Users/samarjeet/Desktop/BS/browserstack-javaagent/target/browserstack-java-sdk-1.19.3.jar</systemPath>-->
+            <!--<scope>system</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
