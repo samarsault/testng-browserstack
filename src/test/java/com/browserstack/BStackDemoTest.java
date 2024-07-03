@@ -9,6 +9,7 @@ public class BStackDemoTest extends SeleniumTest {
     @Test
     public void addProductToCart() throws Exception {
         System.out.println("Started");
+        Thread.sleep(1000*10);
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
