@@ -31,6 +31,7 @@ public class BStackDemoTest extends SeleniumTest {
     public void addProductToCart2() throws Exception {
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
+        Thread.sleep(1000*10);
 
         // Check the title
         Assert.assertTrue(driver.getTitle().matches("StackDemo"));
