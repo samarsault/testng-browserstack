@@ -10,4 +10,4 @@ pool:
   name: default
 
 steps:
-- script: mvn clean install
+- script: 1234 # mvn clean install
